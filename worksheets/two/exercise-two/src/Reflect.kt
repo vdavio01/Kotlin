@@ -7,5 +7,5 @@ fun main(args: Array<String>) {
         System.exit(-1)
     }
 
-    // TODO
+    println("test")
 }

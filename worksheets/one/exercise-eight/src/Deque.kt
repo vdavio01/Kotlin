@@ -15,7 +15,7 @@ class Deque<T> {
             }
             else -> {
                 if(head == lastElement) {
-                   
+
                     head!!.next = newElement
                 }
                 newElement.prev = lastElement
