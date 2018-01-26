@@ -1,3 +1,5 @@
+import kotlin.test.assertEquals
+
 class Deque<T> {
     private var head: Element<T>? = null
     private var lastElement: Element<T>? = null
@@ -12,7 +14,10 @@ class Deque<T> {
                 lastElement = newElement
             }
             else -> {
-
+                if(head == lastElement) {
+                   
+                    head!!.next = newElement
+                }
                 newElement.prev = lastElement
                 lastElement = newElement
             }
@@ -48,7 +53,7 @@ class Deque<T> {
 
     fun unshift(value: T) {
         val newValue = Element(value)
-        println("the value of head is : ${head?.value}")
+
         when(lastElement) {
             null -> {
                 head = newValue
@@ -69,13 +74,21 @@ class Deque<T> {
     }
 
     fun shift(): T? {
-        val value = head?.value
-        // TODO
-        return value
+
+        val temp = head
+        head = temp?.next
+
+        if(head == null) {
+            lastElement = head
+
+        }
+        return temp?.value
     }
 
     private data class Element<T>(val value: T, var prev: Element<T>? = null, var next: Element<T>? = null)
 }
+
+
 
 
 
