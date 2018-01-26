@@ -1,3 +1,8 @@
+import java.lang.reflect.Modifier
+import java.util.stream.IntStream
+import java.util.stream.Stream
+import kotlin.reflect.full.*
+
 fun main(args: Array<String>) {
     if (args.size != 1) {
         println("Requires a class name as argument to program")
@@ -7,12 +12,20 @@ fun main(args: Array<String>) {
     val className = readLine()
     val myClass =  Class.forName(className)
 
+   // val myKotlinClass = className!! :: class
+   // val functions = myKotlinClass :: memberFunctions.get()
+    //functions.forEach { print(it.name) }
 
-    println("Class ${myClass.name} has ${myClass.constructors.size} constructor/s")
+
+
+    println("${myClass.name} is ${if (Modifier.isInterface(myClass.modifiers))  "an interface" else "a class"}")
+    println("${myClass.name} has ${myClass.constructors.size} constructor/s")
     val constructor = myClass.constructors
-    constructor.forEach { println("${myClass.name} has ${constructor.size}.\nThe constructor requires ${it.parameterTypes.size} arguments") }
-    println("Type of arguments : ")
-    constructor.forEach { it.parameterTypes.forEach { print("${it.name}, ") } }
+    constructor.forEach { println("The constructor requires ${it.parameterTypes.size} arguments") }
+
+
+
+    constructor.forEach { println("Type of arguments : " ) ; it.parameterTypes.forEach { print("${it.name}, ") }; println() }
     println()
     println("${myClass.name} has ${myClass.declaredFields.size} fields")
     myClass.declaredFields.forEach { println("Field ${it.name} requires ${it.genericType}") }
@@ -22,9 +35,13 @@ fun main(args: Array<String>) {
 
 
 
+
+
 }
 
-class Person(var age: Int, val firstName: String, val secondName: String) {
+class Person(var age: String, val firstName: String, val secondName: String) {
+
+
 
     fun gettingOlder(){
         age+=1
