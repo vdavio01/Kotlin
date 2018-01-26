@@ -60,7 +60,6 @@ class Deque<T> {
                 lastElement = newValue
             }
             else -> {
-
                 newValue.next = head
 
                 head!!.prev = newValue
