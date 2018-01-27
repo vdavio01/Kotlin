@@ -1,47 +1,78 @@
-import java.lang.reflect.Constructor
-
 
 fun main(args: Array<String>) {
-    if (args.size < 2) {
+
+    val input = readLine()!!.split(' ')
+    if (input.size < 2) {
         println("Requires a class name and a list of arguments")
         System.exit(-1)
     }
 
-    val className = readLine()
-    val creator = ReflectionProgram(Class.forName(className), "Vasileios", "Davios", "Greece" )
-    val myObj = creator.createObject()
-
-    if(myObj!=Unit) {
-        println((myObj as testingReflectionClass).firstName)
-    }
-
+    val argumentList = input.subList(1,input.size)
+    val className = input[0]
+    ReflectionProgram(className, argumentList)
+    
 }
 
-class ReflectionProgram(private val inputClass: Class<*>, private val arg1: String, private val arg2: String, private val arg3: String) {
-
-    private fun printError(errorMessage: String) {
-        println(errorMessage)
-    }
-
-    fun createObject(): Any  {
+class ReflectionProgram(className: String, argsList :List<String>) {
 
 
-        val constructorList = inputClass.constructors
-                .filter { it.parameterCount == 3 }
-                .filter { it.parameterTypes.all { it == String :: class.java } }
 
-        val constructor = constructorList.first() // Only one constructor can have this signature
-        inputClass.getConstructor(String:: class.java).newInstance("vasilis")
+    init{
+        val constructorList =
 
-        return when(constructor) {
-            is Constructor<out Any> -> constructor.newInstance(arg1, arg2, arg3)
-            else -> printError("We can't find the appropriate constructor")
+                // "call the appropriate constructors that take a string as their only argument."
+                // Create a map with the constructors and the Class of the required arguments for each one of them
+                Class.forName(className).constructors
+                        .filter { it.parameters.size == 1 }
+                        .map { it to it.parameterTypes }.toMap()
 
+        when(constructorList.size) {
+            0 -> showErrorMessage()
+            else -> {
+                val desiredConstructors =
+                        // remove the redundant constructors
+                        //.all or .any will also work since the constructor has only 1 argument
+                        constructorList.toMutableCopy()
+                                .filter { it.value[0] == String :: class.java }
+
+                argsList.forEach { arg ->
+                    //Create and Display an object for each argument inside our list
+                    desiredConstructors.forEach {
+                        printOutObject(it.key.newInstance(arg) as Person)
+                    }
+                }
+
+            }
         }
+
     }
+
+    private fun printOutObject(obj: Person) {
+        println(obj.firstName)
+    }
+
+    private fun showErrorMessage() {
+        println("Can't find an appropriate constructor")
+    }
+
+
+    // from immutable map to HashMap
+    private fun <K, V> Map<K, V>.toMutableCopy() = HashMap(this)
+
 
 }
 
-class testingReflectionClass(val firstName: String, val secondName: String, placeOfBirth: String)
+
+
+class Person(val firstName: String, val secondName: String, val age: Int) {
+
+    constructor(firstName: String, secondName: String): this(firstName, "N/A", 20)
+
+    constructor(firstName: String, age: Int): this(firstName, "", age)
+
+    constructor(firstName: String): this(firstName, "N/A",20)
+
+
+}
 
 
