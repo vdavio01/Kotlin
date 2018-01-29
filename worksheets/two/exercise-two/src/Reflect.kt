@@ -10,7 +10,7 @@ fun main(args: Array<String>) {
     val argumentList = input.subList(1,input.size)
     val className = input[0]
     ReflectionProgram(className, argumentList)
-    
+
 }
 
 class ReflectionProgram(className: String, argsList :List<String>) {

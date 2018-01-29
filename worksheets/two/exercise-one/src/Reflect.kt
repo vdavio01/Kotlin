@@ -1,7 +1,5 @@
 import java.lang.reflect.Modifier
-import java.util.stream.IntStream
-import java.util.stream.Stream
-import kotlin.reflect.full.*
+
 
 fun main(args: Array<String>) {
     if (args.size != 1) {
