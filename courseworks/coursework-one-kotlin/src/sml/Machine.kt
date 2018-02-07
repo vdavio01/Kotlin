@@ -1,8 +1,6 @@
 package sml
 
-import sml.instructions.AddInstruction
-import sml.instructions.LinInstruction
-import sml.instructions.NoOpInstruction
+import sml.instructions.*
 import java.io.File
 import java.io.IOException
 import java.util.Scanner
@@ -29,7 +27,7 @@ data class Machine(var pc: Int, val noOfRegisters: Int) {
 
     init {
         labels = Labels()
-        prog = ArrayList<Instruction>()
+        prog = ArrayList()
         registers = Registers(noOfRegisters)
     }
 
@@ -77,7 +75,8 @@ data class Machine(var pc: Int, val noOfRegisters: Int) {
                     // Store the label in label
                     val label = scan()
 
-                    if (label.length > 0) {
+                    println("Label: $label")
+                    if (label.isNotEmpty()) {
                         labels.addLabel(label)
                         prog.add(getInstruction(label))
                     }
@@ -112,6 +111,35 @@ data class Machine(var pc: Int, val noOfRegisters: Int) {
                 s1 = scanInt()
                 LinInstruction(label, r, s1)
             }
+            "sub" -> {
+                r = scanInt()
+                s1 = scanInt()
+                s2 = scanInt()
+                SubInstruction(label, r, s1, s2)
+            }
+
+            "mul" -> {
+                r = scanInt()
+                s1 = scanInt()
+                s2 = scanInt()
+                MulInstruction(label, r, s1, s2)
+            }
+            "div" -> {
+                r = scanInt()
+                s1 = scanInt()
+                s2 = scanInt()
+                DivInstruction(label, r, s1, s2)
+            }
+            "out" -> {
+                s1 = scanInt()
+                OutInstruction(label,s1)
+            }
+            "bnz" -> {
+                s1 = scanInt()
+                val jumpTo = scan()
+                BnzInstruction(label, s1, jumpTo)
+            }
+
         // You will have to write code here for the other instructions
             else -> {
                 NoOpInstruction(label, line)
@@ -124,13 +152,14 @@ data class Machine(var pc: Int, val noOfRegisters: Int) {
      * word, return ""
      */
     private fun scan(): String {
+
         line = line.trim { it <= ' ' }
-        if (line.length == 0)
+        if (line.isEmpty())
             return ""
 
         var i = 0
         while (i < line.length && line[i] != ' ' && line[i] != '\t') {
-            i = i + 1
+            i += 1
         }
         val word = line.substring(0, i)
         line = line.substring(i)
@@ -143,7 +172,7 @@ data class Machine(var pc: Int, val noOfRegisters: Int) {
      */
     private fun scanInt(): Int {
         val word = scan()
-        if (word.length == 0) {
+        if (word.isEmpty()) {
             return Integer.MAX_VALUE
         }
 

@@ -16,7 +16,8 @@ fun main(args: Array<String>) {
         println("Here is the program; it has " + m.prog.size + " instructions.")
         println(m)
 
-        print("Beginning program execution...")
+        println("Beginning program execution...")
+
         m.execute()
         println("Ending program execution.")
 

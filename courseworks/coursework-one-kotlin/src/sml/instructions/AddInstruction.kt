@@ -7,7 +7,8 @@ import sml.Machine
  * Describes the SML ADD instruction
  *
  */
-class AddInstruction(label: String, val result: Int, val op1: Int, val op2: Int) : Instruction(label, "add") {
+class AddInstruction(label: String, private val result: Int, private val op1: Int, private val op2: Int)
+    : Instruction(label, "add") {
 
     override fun execute(m: Machine) {
         val value1 = m.registers.getRegister(op1)

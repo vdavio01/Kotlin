@@ -17,6 +17,8 @@ data class Registers(val NUMBEROFREGISTERS: Int) {
         for (i in registers.indices) {
             registers[i] = 0
         }
+
+
     }
 
     /**
