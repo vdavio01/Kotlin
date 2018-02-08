@@ -75,7 +75,7 @@ data class Machine(var pc: Int, val noOfRegisters: Int) {
                     // Store the label in label
                     val label = scan()
 
-                    println("Label: $label")
+                    
                     if (label.isNotEmpty()) {
                         labels.addLabel(label)
                         prog.add(getInstruction(label))
@@ -94,12 +94,12 @@ data class Machine(var pc: Int, val noOfRegisters: Int) {
      * Translate line into an instruction with label label and return the instruction
      */
     fun getInstruction(label: String): Instruction {
-        val s1: Int // Possible operands of the instruction
-        val s2: Int
-        val r: Int
 
         val ins = scan()
-        return when (ins) { // replace with reflection
+        val args = (label + line).split(Regex("\\s+")).toTypedArray()
+        return InstructionFactory.generateInstruction(ins,args)
+
+        /**return when (ins) {
             "add" -> {
                 r = scanInt()
                 s1 = scanInt()
@@ -140,11 +140,11 @@ data class Machine(var pc: Int, val noOfRegisters: Int) {
                 BnzInstruction(label, s1, jumpTo)
             }
 
-        // You will have to write code here for the other instructions
+
             else -> {
                 NoOpInstruction(label, line)
             }
-        }
+        }**/
     }
 
     /*
