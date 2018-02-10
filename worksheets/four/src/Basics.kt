@@ -192,7 +192,7 @@ fun isPalindrome(s: String): Boolean  {
  * @param cc 0 or more characters
  * @return the sum of the ASCII integers corresponding with the character.
  */
-//fun sumChars(cc: Char*): Int = 
+//fun sumChars(cc: Char*): Int =
 
 /**
  * Counts the number of space delimited words in the provided array of strings.
@@ -221,9 +221,9 @@ fun isPalindrome(s: String): Boolean  {
  */
 fun wordCounter(lines: Array<String>): Map<String, Int> {
 
-    val myListOfStrings = mutableListOf<String>()
-    lines.forEach { it.split(Regex("\\s")).forEach { myListOfStrings.add(it) } }
-    return myListOfStrings.groupBy { it }.mapValues { it.value.size }
+    return lines.flatMap { it.split(' ') }
+            .groupBy { it }
+            .mapValues { it.value.size }
 
     // val listOFListOFStrings = mutableListOf<List<String>>()
     // lines.forEach { listOFListOFStrings.add(it.split(Regex("\\s")) }
