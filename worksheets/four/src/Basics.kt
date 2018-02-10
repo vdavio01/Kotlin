@@ -76,9 +76,9 @@ fun minWhile(r: Array<Int>): Int {
 fun minFor(r: Array<Int>): Int {
     var min = r[0]
 
-    for(i in 0 until r.size ) {
+    for(i in r ) {
         when {
-            min > r[i] -> min = r[i]
+            min > i -> min = i
         }
     }
     return min
