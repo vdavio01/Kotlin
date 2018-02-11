@@ -97,7 +97,8 @@ data class Machine(var pc: Int, val noOfRegisters: Int) {
 
         val ins = scan()
         val args = (label + line).split(Regex("\\s+")).toTypedArray()
-        return InstructionFactory.generateInstruction(ins,args)
+        val myInstructionFactory = InstructionFactory(ins, args)
+        return myInstructionFactory.generateInstruction()
 
         /**return when (ins) {
             "add" -> {
