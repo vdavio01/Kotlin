@@ -2,18 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b676f89c-750f-4fda-8673-cef2d1d3f68d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/sml/instructions/InstructionFactory.kt" />
-      <change beforePath="$PROJECT_DIR$/../coursework-one-java/.idea/misc.xml" afterPath="$PROJECT_DIR$/../coursework-one-java/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/../coursework-one-java/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../coursework-one-java/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/toManyArgs.sml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/unknownInstruction.sml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/add.txt" afterPath="$PROJECT_DIR$/src/add.sml" />
-      <change beforePath="$PROJECT_DIR$/src/brancIfNotZero.txt" afterPath="$PROJECT_DIR$/src/brancIfNotZero.sml" />
-      <change beforePath="$PROJECT_DIR$/src/division.txt" afterPath="$PROJECT_DIR$/src/division.sml" />
-      <change beforePath="$PROJECT_DIR$/src/multiply.txt" afterPath="$PROJECT_DIR$/src/multiply.sml" />
-      <change beforePath="$PROJECT_DIR$/src/out.txt" afterPath="$PROJECT_DIR$/src/out.sml" />
-      <change beforePath="$PROJECT_DIR$/src/sml/Machine.kt" afterPath="$PROJECT_DIR$/src/sml/Machine.kt" />
-      <change beforePath="$PROJECT_DIR$/src/sml/instructions/InstructionFactory.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/subtract.txt" afterPath="$PROJECT_DIR$/src/subtract.sml" />
+      <change beforePath="$PROJECT_DIR$/src/sml/instructions/BnzInstruction.kt" afterPath="$PROJECT_DIR$/src/sml/instructions/BnzInstruction.kt" />
+      <change beforePath="$PROJECT_DIR$/src/sml/instructions/DivInstruction.kt" afterPath="$PROJECT_DIR$/src/sml/instructions/DivInstruction.kt" />
+      <change beforePath="$PROJECT_DIR$/src/sml/instructions/InstructionFactory.kt" afterPath="$PROJECT_DIR$/src/sml/instructions/InstructionFactory.kt" />
+      <change beforePath="$PROJECT_DIR$/src/sml/instructions/LinInstruction.kt" afterPath="$PROJECT_DIR$/src/sml/instructions/LinInstruction.kt" />
+      <change beforePath="$PROJECT_DIR$/src/sml/instructions/MulInstruction.kt" afterPath="$PROJECT_DIR$/src/sml/instructions/MulInstruction.kt" />
+      <change beforePath="$PROJECT_DIR$/src/sml/instructions/NoOpInstruction.kt" afterPath="$PROJECT_DIR$/src/sml/instructions/NoOpInstruction.kt" />
+      <change beforePath="$PROJECT_DIR$/src/sml/instructions/OutInstruction.kt" afterPath="$PROJECT_DIR$/src/sml/instructions/OutInstruction.kt" />
+      <change beforePath="$PROJECT_DIR$/src/sml/instructions/SubInstruction.kt" afterPath="$PROJECT_DIR$/src/sml/instructions/SubInstruction.kt" />
       <change beforePath="$PROJECT_DIR$/../../worksheets/two/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../worksheets/two/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/../../worksheets/two/exercise-four/src/Reflect.kt" afterPath="$PROJECT_DIR$/../../worksheets/two/exercise-four/src/Reflect.kt" />
       <change beforePath="$PROJECT_DIR$/../../worksheets/two/out/production/exercise-one/ReflectKt.class" afterPath="$PROJECT_DIR$/../../worksheets/two/out/production/exercise-one/ReflectKt.class" />
@@ -32,7 +31,7 @@
       <file leaf-file-name="Machine.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sml/Machine.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2900">
+            <state relative-caret-position="347">
               <caret line="100" column="57" lean-forward="false" selection-start-line="100" selection-start-column="57" selection-end-line="100" selection-end-column="57" />
               <folding>
                 <element signature="e#13#146#0" expanded="true" />
@@ -45,57 +44,59 @@
         <entry file="file://$PROJECT_DIR$/src/add.sml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InstructionFactory.kt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="InstructionFactory.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sml/instructions/InstructionFactory.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1169">
-              <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+            <state relative-caret-position="1859">
+              <caret line="95" column="4" lean-forward="false" selection-start-line="95" selection-start-column="4" selection-end-line="95" selection-end-column="4" />
+              <folding>
+                <element signature="e#26#213#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="toManyArgs.sml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/toManyArgs.sml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="58">
+              <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="division.sml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/division.sml">
+      <file leaf-file-name="unknownInstruction.sml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/unknownInstruction.sml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kotlin.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/kotlin.iml">
+      <file leaf-file-name="LinInstruction.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sml/instructions/LinInstruction.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="203">
+              <caret line="8" column="76" lean-forward="false" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="76" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="multiply.sml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/multiply.sml">
+      <file leaf-file-name="DivInstruction.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sml/instructions/DivInstruction.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="out.sml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/out.sml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="406">
+              <caret line="15" column="59" lean-forward="false" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -104,28 +105,28 @@
       <file leaf-file-name="MulInstruction.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sml/instructions/MulInstruction.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="16" column="58" lean-forward="false" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
+            <state relative-caret-position="406">
+              <caret line="15" column="53" lean-forward="false" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="subtract.sml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/subtract.sml">
+      <file leaf-file-name="NoOpInstruction.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sml/instructions/NoOpInstruction.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="261">
+              <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="brancIfNotZero.sml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/brancIfNotZero.sml">
+      <file leaf-file-name="AddInstruction.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sml/instructions/AddInstruction.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="203">
+              <caret line="8" column="3" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="8" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -163,17 +164,21 @@
         <option value="$PROJECT_DIR$/src/sml/Registers.kt" />
         <option value="$PROJECT_DIR$/src/sml/instructions/AddInstruction.kt" />
         <option value="$PROJECT_DIR$/src/sml/instructions/SubInstraction.kt" />
-        <option value="$PROJECT_DIR$/src/sml/instructions/MulInstruction.kt" />
         <option value="$PROJECT_DIR$/src/sml/main.kt" />
-        <option value="$PROJECT_DIR$/src/sml/instructions/LinInstruction.kt" />
-        <option value="$PROJECT_DIR$/src/sml/instructions/DivInstruction.kt" />
-        <option value="$PROJECT_DIR$/src/sml/instructions/OutInstruction.kt" />
         <option value="$PROJECT_DIR$/src/sml/Labels.kt" />
-        <option value="$PROJECT_DIR$/src/sml/instructions/SubInstruction.kt" />
-        <option value="$PROJECT_DIR$/src/sml/instructions/BnzInstruction.kt" />
         <option value="$PROJECT_DIR$/src/sml/instructions/InstructionFactory.java" />
         <option value="$PROJECT_DIR$/src/sml/Machine.kt" />
         <option value="$PROJECT_DIR$/src/sml/instructions/InstructionFactory1.java" />
+        <option value="$PROJECT_DIR$/src/sml/instructions/OutInstruction.kt" />
+        <option value="$PROJECT_DIR$/src/sml/instructions/BnzInstruction.kt" />
+        <option value="$PROJECT_DIR$/src/sml/instructions/DivInstruction.kt" />
+        <option value="$PROJECT_DIR$/src/sml/instructions/LinInstruction.kt" />
+        <option value="$PROJECT_DIR$/src/sml/instructions/MulInstruction.kt" />
+        <option value="$PROJECT_DIR$/src/sml/instructions/SubInstruction.kt" />
+        <option value="$PROJECT_DIR$/src/fail.sml" />
+        <option value="$PROJECT_DIR$/src/toManyArgs.sml" />
+        <option value="$PROJECT_DIR$/src/sml/instructions/NoOpInstruction.kt" />
+        <option value="$PROJECT_DIR$/src/unknownInstruction.sml" />
         <option value="$PROJECT_DIR$/src/sml/instructions/InstructionFactory.kt" />
       </list>
     </option>
@@ -206,8 +211,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -238,6 +241,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -305,10 +310,10 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="sml.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="sml.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="src/subtract.sml" />
+      <option name="PROGRAM_PARAMETERS" value="src/toManyArgs.sml" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
@@ -374,9 +379,8 @@
       <item index="1" class="java.lang.String" itemvalue="Kotlin.sml.instructions.InstructionFactoryKt" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Kotlin.sml.MainKt" />
-        <item index="1" class="java.lang.String" itemvalue="Kotlin.sml.instructions.InstructionFactoryKt" />
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Kotlin.sml.instructions.InstructionFactoryKt" />
       </list>
     </recent_temporary>
   </component>
@@ -403,7 +407,9 @@
       <workItem from="1518035159609" duration="346000" />
       <workItem from="1518090424787" duration="11097000" />
       <workItem from="1518376758161" duration="681000" />
-      <workItem from="1518377447074" duration="5813000" />
+      <workItem from="1518377447074" duration="6506000" />
+      <workItem from="1518389613275" duration="1143000" />
+      <workItem from="1518444030181" duration="14875000" />
     </task>
     <task id="LOCAL-00001" summary="Completed sub/mul/div/out/bnz instructions.&#10;todo(): &#10;Reflection&#10;Improve toString()">
       <created>1518032746409</created>
@@ -419,14 +425,22 @@
       <option name="project" value="LOCAL" />
       <updated>1518113382882</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Removed Java class&#10;Added Kotlin class that handles the instructions with reflection">
+      <created>1518384140474</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1518384140474</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36616000" />
+    <option name="totallyTimeSpent" value="53327000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="33" y="31" width="2481" height="1386" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -442,7 +456,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20090201" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20418204" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -467,29 +481,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Completed sub/mul/div/out/bnz instructions.&#10;todo(): &#10;Reflection&#10;Improve toString()" />
     <MESSAGE value="Created a java class to handle the creation of instructions via Reflection&#10;todo(): &#10;Improve toString()" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created a java class to handle the creation of instructions via Reflection&#10;todo(): &#10;Improve toString()" />
+    <MESSAGE value="Removed Java class&#10;Added Kotlin class that handles the instructions with reflection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed Java class&#10;Added Kotlin class that handles the instructions with reflection" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/division.sml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/multiply.sml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/out.sml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -510,7 +509,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
           <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -522,14 +520,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sml/instructions/InstructionFactory1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sml/instructions/InstructionFactory1.java" />
     <entry file="file://$PROJECT_DIR$/src/sml/Machine.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -565,7 +556,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
           <caret line="9" column="53" lean-forward="false" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -674,28 +664,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
           <caret line="9" column="53" lean-forward="false" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sml/instructions/NoOpInstruction.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sml/instructions/DivInstruction.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="18" column="69" lean-forward="false" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sml/instructions/OutInstruction.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -703,13 +671,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
           <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sml/instructions/SubInstruction.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -727,20 +688,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sml/instructions/LinInstruction.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="12" column="75" lean-forward="false" selection-start-line="12" selection-start-column="75" selection-end-line="12" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sml/main.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test1.sml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -748,81 +695,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sml/instructions/BnzInstruction.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="9" column="53" lean-forward="false" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sml/instructions/AddInstruction.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test2.sml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sml/Machine.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2900">
-          <caret line="100" column="57" lean-forward="false" selection-start-line="100" selection-start-column="57" selection-end-line="100" selection-end-column="57" />
-          <folding>
-            <element signature="e#13#146#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sml/instructions/InstructionFactory1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="25" selection-start-column="2" selection-end-line="30" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sml/instructions/MulInstruction.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="16" column="58" lean-forward="false" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sml/instructions/InstructionFactory.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1169">
-          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/add.sml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sml/instructions/InstructionFactory1.java" />
     <entry file="file://$PROJECT_DIR$/src/kotlin.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/brancIfNotZero.sml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -859,6 +740,130 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/brancIfNotZero.sml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sml/main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sml/instructions/OutInstruction.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sml/instructions/BnzInstruction.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="16" column="40" lean-forward="false" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sml/instructions/SubInstruction.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sml/instructions/MulInstruction.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="15" column="53" lean-forward="false" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sml/instructions/LinInstruction.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="8" column="76" lean-forward="false" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sml/instructions/DivInstruction.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="15" column="59" lean-forward="false" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/add.sml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sml/instructions/NoOpInstruction.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unknownInstruction.sml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sml/Machine.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="100" column="57" lean-forward="false" selection-start-line="100" selection-start-column="57" selection-end-line="100" selection-end-column="57" />
+          <folding>
+            <element signature="e#13#146#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sml/instructions/AddInstruction.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="8" column="3" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="8" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/toManyArgs.sml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sml/instructions/InstructionFactory.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1859">
+          <caret line="95" column="4" lean-forward="false" selection-start-line="95" selection-start-column="4" selection-end-line="95" selection-end-column="4" />
+          <folding>
+            <element signature="e#26#213#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

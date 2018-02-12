@@ -8,6 +8,6 @@ class NoOpInstruction(label: String, val line:String): Instruction(label, "NoOp"
     }
 
     override fun toString(): String {
-        return super.toString() + line
+        return super.toString() + " $line"
     }
 }

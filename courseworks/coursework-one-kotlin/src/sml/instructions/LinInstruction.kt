@@ -2,9 +2,16 @@ package sml.instructions
 
 import sml.Instruction
 import sml.Machine
+/**
+ * Describes the SML Lin instruction
+ *
+ */
+class LinInstruction(label: String, private val register: Int, private val value: Int) : Instruction(label, "lin") {
 
-class LinInstruction(label: String, val register: Int, val value: Int) : Instruction(label, "lin") {
-
+    /**
+     * Executes the Lin Instruction.
+     * Stores the value to the required register
+     */
     override fun execute(m: Machine) {
         m.registers.setRegister(register, value)
     }
