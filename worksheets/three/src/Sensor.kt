@@ -16,7 +16,9 @@ interface Sensor {
     fun getSensortype(): String
 
     /**
-     * Returns a number between 0-100 where 0 is empty and 100 is fully charged.
+     * Since we have sensor that don't have battery we violate interface segregation principle thus we will move
+     * the getBatteryPercentage function to an abstract class
      */
-    fun getBatteryPercentage(): Double
+
+    //fun getBatteryPercentage(): Double
 }

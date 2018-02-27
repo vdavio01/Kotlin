@@ -1,16 +1,13 @@
-class ControlUnit {
+open class ControlUnit(private val sensors: List<Sensor>, private val poller: Poller,
+                       private val notificationCentre: NotificationCentre) {
 
-    fun pollSensors() {
-        val sensors = ArrayList<Sensor>()
-        sensors.add(FireSensor())
-        sensors.add(SmokeSensor())
+    open fun pollSensors() {
 
-        for (sensor in sensors) {
-            if (sensor.isTriggered()) {
-                println("A ${sensor.getSensortype()}  sensor was triggered at  ${sensor.getLocation()}")
-            } else {
-                println("Polled ${sensor.getSensortype()} at ${sensor.getLocation()}  successfully")
-            }
-        }
+        sensors.forEach { if(poller.poll(it)) takeAction(it) }
+    }
+
+
+    private fun takeAction(sensor: Sensor) {
+        notificationCentre.takeActions(sensor)
     }
 }

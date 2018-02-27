@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <!-- Control unit with hazard sensors -->
+    <bean id="controlUnit" class="ControlUnit">
+        <constructor-arg index="0" ref="list"/>
+        <constructor-arg index="1" ref="poller"/>
+        <constructor-arg index="2" ref="notificationCentre"/>
+    </bean>
+
+    <bean id="sensorCreator" class="SensorCreator"/>
+
+    <!-- 1st constructor argument for Control Unit : list of sensors -->
+    <bean id="list" factory-bean="sensorCreator" factory-method="createHazardSensors" >
+        <constructor-arg value="5"/>
+    </bean>
+
+    <!-- 2nd constructor argument for Control Unit: poller -->
+    <bean id="poller" class="PollerImpl" >
+        <constructor-arg ref="messageRenderer"/>
+    </bean>
+
+
+    <!-- 3rd constructor argument for Control Unit: notification Centre -->
+    <bean id="notificationCentre" class="NotificationCentreImpl"/>
+
+
+    <!-- messageRenderer -->
+    <bean id="messageRenderer" class="MessageRendererImpl"/>
+
+
+    <!-- Control Unit with Security sensors -->
+    <bean id="securityControlUnit" class="SecurityControlUnit">
+        <constructor-arg index="0" ref="securitySensorList"/>
+        <constructor-arg index="1" ref="poller"/>
+        <constructor-arg index="2" ref="notificationCentre"/>
+    </bean>
+
+
+    <!-- 1st constructor argument for security sensor Control Unit : list of security sensors -->
+    <bean id="securitySensorList" factory-bean="sensorCreator" factory-method="createSecuritySensors" >
+        <constructor-arg value="5"/>
+    </bean>
+
+
+
+
+</beans>
