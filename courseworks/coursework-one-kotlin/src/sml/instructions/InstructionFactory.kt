@@ -93,7 +93,7 @@ class InstructionFactory(private val instruction: String, private val args: Arra
         return myArray
 
     }
-    
+
 }
 
 

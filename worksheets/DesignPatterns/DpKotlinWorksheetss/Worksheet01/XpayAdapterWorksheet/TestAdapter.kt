@@ -1,0 +1,35 @@
+package XpayAdapterWorksheet
+
+fun main(args: Array<String>) {
+    val us1 = XpayImpl()
+    us1.setCustomerName("Vasilis")
+    us1.setCreditCardNo("123")
+    us1.setCardExpMonth("12")
+    us1.setCardExpYear("2025")
+    us1.setCVVNo(123)
+    us1.setAmount(12.0)
+
+
+    val adapterInAction = XpayToPayDAdapter(us1)
+    println("Name ${adapterInAction.cardOwnerName}")
+    println("Credit Card Number ${adapterInAction.custCardNo}")
+    println("ExpMont ${adapterInAction.cardExpMonthDate}")
+    println("CVVNo ${adapterInAction.CVVNo}")
+    println("Amount ${adapterInAction.totalAmount}")
+    println()
+    println("- - - - - - - - ")
+    println("New values")
+    println()
+    us1.setCreditCardNo("456")
+    us1.setCustomerName("Davios")
+    us1.setCardExpMonth("07")
+    us1.setCVVNo(101)
+    us1.setAmount(24.0)
+    println("Printing new Values")
+    println()
+    println("Name ${adapterInAction.cardOwnerName}")
+    println("Credit Card Number ${adapterInAction.custCardNo}")
+    println("ExpMont ${adapterInAction.cardExpMonthDate}")
+    println("CVVNo ${adapterInAction.CVVNo}")
+    println("Amount ${adapterInAction.totalAmount}")
+}

@@ -2,44 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8971039-e061-4d25-8794-bb77f754c5e9" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Spring_4_3_14_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/beans.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/FireSensors.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/HeatSensor.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/MessageRenderer.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/MessageRendererImpl.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/MotionSensor.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/NotificationCentre.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/NotificationCentreImpl.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Poller.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/PollerImpl.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/SecurityControlUnit.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/SecuritySensors.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/SensorCreator.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/SensorsWithBattery.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/SmokeSensors.kt" />
       <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/../../courseworks/coursework-one-kotlin/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../courseworks/coursework-one-kotlin/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/../../courseworks/coursework-one-kotlin/src/sml/instructions/InstructionFactory.kt" afterPath="$PROJECT_DIR$/../../courseworks/coursework-one-kotlin/src/sml/instructions/InstructionFactory.kt" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/worksheet-three/ControlUnit.class" afterPath="$PROJECT_DIR$/out/production/worksheet-three/ControlUnit.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/worksheet-three/FireSensor.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/worksheet-three/META-INF/worksheet-three.kotlin_module" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/worksheet-three/MainKt.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/worksheet-three/Sensor.class" afterPath="$PROJECT_DIR$/out/production/worksheet-three/Sensor.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/worksheet-three/SmokeSensor.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/test/worksheet-three/FireSensorTest.class" afterPath="$PROJECT_DIR$/out/test/worksheet-three/FireSensorTest.class" />
-      <change beforePath="$PROJECT_DIR$/out/test/worksheet-three/SmokeSensorTest.class" afterPath="$PROJECT_DIR$/out/test/worksheet-three/SmokeSensorTest.class" />
-      <change beforePath="$PROJECT_DIR$/src/ControlUnit.kt" afterPath="$PROJECT_DIR$/src/ControlUnit.kt" />
-      <change beforePath="$PROJECT_DIR$/src/FireSensor.kt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Main.kt" afterPath="$PROJECT_DIR$/src/Main.kt" />
-      <change beforePath="$PROJECT_DIR$/src/Sensor.kt" afterPath="$PROJECT_DIR$/src/Sensor.kt" />
-      <change beforePath="$PROJECT_DIR$/src/SmokeSensor.kt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test/FireSensorTest.kt" afterPath="$PROJECT_DIR$/test/FireSensorTest.kt" />
-      <change beforePath="$PROJECT_DIR$/test/SmokeSensorTest.kt" afterPath="$PROJECT_DIR$/test/SmokeSensorTest.kt" />
-      <change beforePath="$PROJECT_DIR$/worksheet-three.iml" afterPath="$PROJECT_DIR$/worksheet-three.iml" />
       <change beforePath="$PROJECT_DIR$/../two/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../two/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/../two/exercise-four/src/Reflect.kt" afterPath="$PROJECT_DIR$/../two/exercise-four/src/Reflect.kt" />
       <change beforePath="$PROJECT_DIR$/../two/out/production/exercise-one/ReflectKt.class" afterPath="$PROJECT_DIR$/../two/out/production/exercise-one/ReflectKt.class" />
@@ -436,8 +402,16 @@
       <workItem from="1516188000675" duration="1989000" />
       <workItem from="1516190032645" duration="1564000" />
       <workItem from="1519653775935" duration="249000" />
-      <workItem from="1519742924866" duration="449000" />
+      <workItem from="1519742924866" duration="1092000" />
     </task>
+    <task id="LOCAL-00001" summary="Worksheet 3 completed.&#10;Using Spring for DI">
+      <created>1519743452454</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1519743452454</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -449,7 +423,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4753000" />
+    <option name="totallyTimeSpent" value="5396000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2619" y="70" width="1847" height="948" extended-state="0" />
@@ -496,6 +470,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+    <MESSAGE value="Worksheet 3 completed.&#10;Using Spring for DI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Worksheet 3 completed.&#10;Using Spring for DI" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

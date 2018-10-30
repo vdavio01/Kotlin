@@ -48,9 +48,9 @@ fun <T> init(l: List<T>): List<T> {
 fun <T> foldLeft(l: List<T>, initial : T, f: (T, T) -> T): T {
 
 
-    return when(l.size) {
-        0 -> initial
-        else -> f(l[0], foldLeft(tail(l),initial,f))
+    return when(l) {
+        emptyList<T>() -> initial
+        else -> foldLeft(tail(l),f(initial,l.first()),f)
     }
 
 }
@@ -114,7 +114,7 @@ fun <T> length(l: List<T>) : Int {
 fun <T> reverse(l: List<T>): List<T> {
     return when(length(l)) {
         0 -> l
-        else -> reverse(tail(l)) + listOf(foldLeft(l, 0,{ x, _ -> x})) as List<T>
+        else -> reverse(tail(l)) + listOf(l.first())
 
     }
 }
@@ -124,7 +124,7 @@ fun <T> flatten(l: List<List<T>>): List<T> {
     return  when{
 
         length(l) == 0 -> emptyList()
-        else -> foldLeft(l, emptyList(), { x, _ -> x})  + flatten(tail(l))
+        else -> l.first()  + flatten(tail(l))
     }
 
 }
@@ -133,7 +133,7 @@ fun <T> map(l: List<T>, f: (T) -> T): List<T> {
 
     return when{
         l.isEmpty() -> emptyList()
-        else -> listOf(f(foldLeft(l,0,{ x, _ -> x}) as T)) + map(tail(l),f)
+        else -> listOf(f(l.first())) + map(tail(l),f)
     }
 }
 
@@ -144,11 +144,9 @@ fun <T> filter(l: List<T>, f: (T) -> Boolean): List<T> {
 
         l.isEmpty() -> emptyList()
         else -> {
-            val valueToCheck = foldLeft(l,0,{x,_ -> x}) as T //returns the first value of our list
-            if(f(valueToCheck) == true) listOf(valueToCheck)  else
-            {
-                emptyList()
-            } + filter(tail(l),f)
+
+            if(f(l.first())) listOf(l.first()) + filter(tail(l),f) else
+             filter(tail(l),f)
         }
 
     }
@@ -158,7 +156,7 @@ fun <T> flatMap(l: List<T>, f:(T) -> List<T>): List<T> {
 
     return when {
         l.isEmpty() -> emptyList()
-        else -> f(foldLeft(l,0, {x,_ -> x}) as T) + (flatMap(tail(l), f))
+        else -> f(l.first()) + (flatMap(tail(l), f))
     }
 
 }

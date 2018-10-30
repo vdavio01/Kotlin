@@ -1,3 +1,0 @@
-interface TimerClient {
-    fun timeout()
-}

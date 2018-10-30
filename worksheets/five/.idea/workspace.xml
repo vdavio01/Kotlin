@@ -1,0 +1,856 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f112dc0d-73ec-43a3-b460-4b2836da456e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../../courseworks/coursework-one-kotlin/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../courseworks/coursework-one-kotlin/out/production/coursework-one-kotlin/META-INF/coursework-one-kotlin.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../courseworks/coursework-one-kotlin/out/production/coursework-one-kotlin/add.sml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../courseworks/coursework-one-kotlin/out/production/coursework-one-kotlin/brancIfNotZero.sml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../courseworks/coursework-one-kotlin/out/production/coursework-one-kotlin/division.sml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../courseworks/coursework-one-kotlin/out/production/coursework-one-kotlin/kotlin.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../courseworks/coursework-one-kotlin/out/production/coursework-one-kotlin/multiply.sml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../courseworks/coursework-one-kotlin/out/production/coursework-one-kotlin/out.sml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../courseworks/coursework-one-kotlin/out/production/coursework-one-kotlin/sml/Instruction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../courseworks/coursework-one-kotlin/out/production/coursework-one-kotlin/sml/Labels.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../courseworks/coursework-one-kotlin/out/production/coursework-one-kotlin/sml/Machine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../courseworks/coursework-one-kotlin/out/production/coursework-one-kotlin/sml/MainKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../courseworks/coursework-one-kotlin/out/production/coursework-one-kotlin/sml/Registers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../courseworks/coursework-one-kotlin/out/production/coursework-one-kotlin/sml/instructions/AddInstruction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../courseworks/coursework-one-kotlin/out/production/coursework-one-kotlin/sml/instructions/BnzInstruction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../courseworks/coursework-one-kotlin/out/production/coursework-one-kotlin/sml/instructions/DivInstruction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../courseworks/coursework-one-kotlin/out/production/coursework-one-kotlin/sml/instructions/InstructionFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../courseworks/coursework-one-kotlin/out/production/coursework-one-kotlin/sml/instructions/LinInstruction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../courseworks/coursework-one-kotlin/out/production/coursework-one-kotlin/sml/instructions/MulInstruction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../courseworks/coursework-one-kotlin/out/production/coursework-one-kotlin/sml/instructions/NoOpInstruction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../courseworks/coursework-one-kotlin/out/production/coursework-one-kotlin/sml/instructions/OutInstruction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../courseworks/coursework-one-kotlin/out/production/coursework-one-kotlin/sml/instructions/SubInstruction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../courseworks/coursework-one-kotlin/out/production/coursework-one-kotlin/subtract.sml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../courseworks/coursework-one-kotlin/out/production/coursework-one-kotlin/test1.sml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../courseworks/coursework-one-kotlin/out/production/coursework-one-kotlin/test2.sml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../courseworks/coursework-one-kotlin/out/production/coursework-one-kotlin/toManyArgs.sml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../courseworks/coursework-one-kotlin/out/production/coursework-one-kotlin/unknownInstruction.sml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/DesignPatterns.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/DpKotlinWorksheetss/Worksheet01/Factory/ConcreteCreator.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/DpKotlinWorksheetss/Worksheet01/Factory/ConcreteProduct.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/DpKotlinWorksheetss/Worksheet01/Factory/Creator.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/DpKotlinWorksheetss/Worksheet01/Factory/Product.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/DpKotlinWorksheetss/Worksheet01/Factory/testingFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/DpKotlinWorksheetss/Worksheet01/Observer/Commentary.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/DpKotlinWorksheetss/Worksheet01/Observer/CommentaryObject.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/DpKotlinWorksheetss/Worksheet01/Observer/CommentaryObjectObservable.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/DpKotlinWorksheetss/Worksheet01/Observer/Observer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/DpKotlinWorksheetss/Worksheet01/Observer/SMSUsers.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/DpKotlinWorksheetss/Worksheet01/Observer/SMSUsersObserver.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/DpKotlinWorksheetss/Worksheet01/Observer/Subject.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/DpKotlinWorksheetss/Worksheet01/Observer/TestObserver.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/DpKotlinWorksheetss/Worksheet01/PizzaDecoratorKotlin/Cheese.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/DpKotlinWorksheetss/Worksheet01/PizzaDecoratorKotlin/GreenOlives.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/DpKotlinWorksheetss/Worksheet01/PizzaDecoratorKotlin/Ham.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/DpKotlinWorksheetss/Worksheet01/PizzaDecoratorKotlin/Meat.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/DpKotlinWorksheetss/Worksheet01/PizzaDecoratorKotlin/Pizza.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/DpKotlinWorksheetss/Worksheet01/PizzaDecoratorKotlin/RomaTomatoes.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/DpKotlinWorksheetss/Worksheet01/PizzaDecoratorKotlin/SimplyNonVegPizza.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/DpKotlinWorksheetss/Worksheet01/PizzaDecoratorKotlin/SimplyVegPizza.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/DpKotlinWorksheetss/Worksheet01/PizzaDecoratorKotlin/Spinach.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/DpKotlinWorksheetss/Worksheet01/PizzaDecoratorKotlin/TestDecoratorPattern.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/DpKotlinWorksheetss/Worksheet01/XpayAdapterWorksheet/PayD.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/DpKotlinWorksheetss/Worksheet01/XpayAdapterWorksheet/TestAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/DpKotlinWorksheetss/Worksheet01/XpayAdapterWorksheet/Xpay.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/DpKotlinWorksheetss/Worksheet01/XpayAdapterWorksheet/XpayImpl.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/DpKotlinWorksheetss/Worksheet01/XpayAdapterWorksheet/XpayToPayDAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/DpKotlinWorksheetss/Worksheet02/AbstractFactory/AbstractParserFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/DpKotlinWorksheetss/Worksheet02/AbstractFactory/LondonErrorXMLParser.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/DpKotlinWorksheetss/Worksheet02/AbstractFactory/LondonFeedBackXMLParser.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/DpKotlinWorksheetss/Worksheet02/AbstractFactory/LondonOrderXMLParser.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/DpKotlinWorksheetss/Worksheet02/AbstractFactory/LondonParserFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/DpKotlinWorksheetss/Worksheet02/AbstractFactory/LondonResponseXMLParser.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/DpKotlinWorksheetss/Worksheet02/AbstractFactory/NYCErrorXMLParser.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/DpKotlinWorksheetss/Worksheet02/AbstractFactory/NYCFeedBackXMLParser.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/DpKotlinWorksheetss/Worksheet02/AbstractFactory/NYCOrderXMLParser.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/DpKotlinWorksheetss/Worksheet02/AbstractFactory/NYCParserFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/DpKotlinWorksheetss/Worksheet02/AbstractFactory/NYCResponseXMLParser.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/DpKotlinWorksheetss/Worksheet02/AbstractFactory/ParserFactoryProducer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/DpKotlinWorksheetss/Worksheet02/AbstractFactory/TestAbstractFactoryPattern.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/DpKotlinWorksheetss/Worksheet02/AbstractFactory/XMLParser.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/DpKotlinWorksheetss/Worksheet02/Builder/Car.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/DpKotlinWorksheetss/Worksheet02/Builder/CarBuilder.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/DpKotlinWorksheetss/Worksheet02/Builder/CarDirector.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/DpKotlinWorksheetss/Worksheet02/Builder/Director.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/DpKotlinWorksheetss/Worksheet02/Builder/SedanCarBuilder.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/DpKotlinWorksheetss/Worksheet02/Builder/SportsCarBuilder.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/DpKotlinWorksheetss/Worksheet02/Builder/carBuilderTesting.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/DpKotlinWorksheetss/Worksheet02/DP-Two" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/DpKotlinWorksheetss/Worksheet02/Strategy/CapTextFormatter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/DpKotlinWorksheetss/Worksheet02/Strategy/LowerTextFormatter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/DpKotlinWorksheetss/Worksheet02/Strategy/TextEditor.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/DpKotlinWorksheetss/Worksheet02/Strategy/TextFormatter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DesignPatterns/DpKotlinWorksheetss/Worksheet02/Strategy/TextFormatterWithStrategyPattern.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/externalDependencies.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/five.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-reflect-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-reflect.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk7-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk8-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-test-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/kotlin-test.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/five/FunctionsKt$maxAverage$myListOfTriples$1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/five/FunctionsKt$maxAverage$myListOfTriples$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/five/FunctionsKt$product$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/five/FunctionsKt$product$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/five/FunctionsKt$product$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/five/FunctionsKt$product$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/five/FunctionsKt$sum$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/five/FunctionsKt$sum$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/five/FunctionsKt$sum$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/five/FunctionsKt$sum$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/five/FunctionsKt$variance$mappedList$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/five/FunctionsKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/five/META-INF/five.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/five/FunctionsTest$filterTest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/five/FunctionsTest$flatMapTest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/five/FunctionsTest$foldLeftTest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/five/FunctionsTest$initTest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/five/FunctionsTest$initTestEmpty$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/five/FunctionsTest$mapTest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/five/FunctionsTest$tailTest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/five/FunctionsTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../four/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../four/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../four/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../four/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../four/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../four/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../four/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../four/out/production/four/BasicsKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../four/out/production/four/META-INF/four.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../four/out/test/four/BasicsKtTest$splitInHalfTest$1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../four/out/test/four/BasicsKtTest$splitInHalfTest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../four/out/test/four/BasicsKtTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one/out/production/exercise-eight/Deque$Element.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one/out/production/exercise-eight/Deque.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one/out/production/exercise-eight/DequeKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one/out/production/exercise-eight/META-INF/exercise-eight.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one/out/production/exercise-five/Hexadecimal$toDecimal$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one/out/production/exercise-five/Hexadecimal$toDecimal$2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one/out/production/exercise-five/Hexadecimal$toDecimal$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one/out/production/exercise-five/Hexadecimal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one/out/production/exercise-four/Anagram$match$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one/out/production/exercise-four/Anagram.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one/out/production/exercise-four/AnagramKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one/out/production/exercise-four/META-INF/exercise-four.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one/out/production/exercise-one/Accumulate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one/out/production/exercise-seven/PascalsTriangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one/out/production/exercise-six/META-INF/exercise-six.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one/out/production/exercise-six/PrimeFactorCalculator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one/out/production/exercise-six/PrimeFactorCalculatorKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one/out/production/exercise-three/SumOfMultiples$sum$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one/out/production/exercise-three/SumOfMultiples.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one/out/production/exercise-two/WordCount$phrase$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one/out/production/exercise-two/WordCount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one/out/production/worksheet-one/Language.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one/out/production/worksheet-one/META-INF/worksheet-one.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one/out/production/worksheet-one/MyLibrary.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one/out/production/worksheet-one/MyLibraryKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one/out/test/exercise-eight/DequeTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one/out/test/exercise-five/HexadecimalTest$Companion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one/out/test/exercise-five/HexadecimalTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one/out/test/exercise-four/AnagramTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one/out/test/exercise-one/AccumulateTest$accumulateReversedStrings$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one/out/test/exercise-one/AccumulateTest$accumulateSquares$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one/out/test/exercise-one/AccumulateTest$accumulateToDifferentType$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one/out/test/exercise-one/AccumulateTest$accumulateUpperCases$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one/out/test/exercise-one/AccumulateTest$accumulateWithinAccumulate$1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one/out/test/exercise-one/AccumulateTest$accumulateWithinAccumulate$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one/out/test/exercise-one/AccumulateTest$emptyAccumulateProducesEmptyAccumulation$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one/out/test/exercise-one/AccumulateTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one/out/test/exercise-seven/PascalsTriangleTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one/out/test/exercise-six/PrimeFactorCalculatorTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one/out/test/exercise-three/SumOfMultiplesTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../one/out/test/exercise-two/WordCountTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../three/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../three/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../three/lib/spring-aop-4.3.14.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../three/lib/spring-aspects-4.3.14.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../three/lib/spring-beans-4.3.14.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../three/lib/spring-context-4.3.14.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../three/lib/spring-context-support-4.3.14.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../three/lib/spring-core-4.3.14.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../three/lib/spring-expression-4.3.14.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../three/lib/spring-instrument-4.3.14.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../three/lib/spring-instrument-tomcat-4.3.14.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../three/lib/spring-jdbc-4.3.14.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../three/lib/spring-jms-4.3.14.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../three/lib/spring-messaging-4.3.14.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../three/lib/spring-orm-4.3.14.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../three/lib/spring-oxm-4.3.14.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../three/lib/spring-test-4.3.14.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../three/lib/spring-tx-4.3.14.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../three/out/production/worksheet-three/FireSensors.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../three/out/production/worksheet-three/HeatSensor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../three/out/production/worksheet-three/MessageRenderer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../three/out/production/worksheet-three/MessageRendererImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../three/out/production/worksheet-three/MotionSensor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../three/out/production/worksheet-three/NotificationCentre.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../three/out/production/worksheet-three/NotificationCentreImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../three/out/production/worksheet-three/Poller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../three/out/production/worksheet-three/PollerImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../three/out/production/worksheet-three/SecurityControlUnit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../three/out/production/worksheet-three/SecuritySensors.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../three/out/production/worksheet-three/SensorCreator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../three/out/production/worksheet-three/SensorSystem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../three/out/production/worksheet-three/SensorsWithBattery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../three/out/production/worksheet-three/SmokeSensors.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../two/out/production/exercise-four/META-INF/exercise-four.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../two/out/production/exercise-four/Me.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../two/out/production/exercise-four/ReflectKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../two/out/production/exercise-four/reflectionProgram.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../two/out/production/exercise-one/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../two/out/production/exercise-three/TestingClass1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../two/out/production/exercise-two/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../two/out/production/exercise-two/ReflectKt$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../two/out/production/exercise-two/ReflectionProgram.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../two/out/test/exercise-three/ClassDestroyer$nonPrivateFields$1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../two/out/test/exercise-three/ClassDestroyer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../courseworks/coursework-one-java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../courseworks/coursework-one-java/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../courseworks/coursework-one-kotlin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../courseworks/coursework-one-kotlin/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../courseworks/coursework-one-kotlin/src/sml/instructions/InstructionFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../courseworks/coursework-one-kotlin/src/sml/instructions/InstructionFactory.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Functions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Functions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../three/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../three/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../two/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../two/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../two/exercise-four/src/Reflect.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../two/exercise-four/src/Reflect.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../two/out/production/exercise-one/ReflectKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/../two/out/production/exercise-one/ReflectKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../two/out/production/exercise-two/ReflectKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/../two/out/production/exercise-two/ReflectKt.class" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Functions.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Functions.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1000">
+              <caret line="131" column="47" selection-start-line="131" selection-start-column="47" selection-end-line="131" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FunctionsTest.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/FunctionsTest.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3103">
+              <caret line="107" selection-start-line="107" selection-end-line="107" />
+              <folding>
+                <element signature="e#0#94#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FunctionsKt.class" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/out/production/five/FunctionsKt.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FunctionsTest.class" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/out/test/five/FunctionsTest.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="87">
+              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/../../../../../Pij/courseworks/Cw03_Cm" value="1489395439000" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/test/FunctionsTest.kt" />
+        <option value="$PROJECT_DIR$/src/Functions.kt" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="53" />
+    <option name="y" value="96" />
+    <option name="width" value="2503" />
+    <option name="height" value="1335" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Correctness</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Performance</id>
+          </State>
+          <State>
+            <id>CorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>GSPGrailsGroovy</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>GeneralScala</id>
+          </State>
+          <State>
+            <id>GrailsGroovy</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>LintAndroid</id>
+          </State>
+          <State>
+            <id>Maven</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+          <State>
+            <id>Scala</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="five" type="b2602c69:ProjectViewProjectNode" />
+              <item name="five" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="five" type="b2602c69:ProjectViewProjectNode" />
+              <item name="five" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="five" type="b2602c69:ProjectViewProjectNode" />
+              <item name="five" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="five" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="FunctionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="five" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FunctionsTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FunctionsTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="modificationStamps">
+      <map>
+        <entry key="$USER_HOME$/SDP-2017-master 2/exercises/week04" value="1486949270000" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f112dc0d-73ec-43a3-b460-4b2836da456e" name="Default" comment="" />
+      <created>1518803802290</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1518803802290</updated>
+      <workItem from="1518803803700" duration="20000" />
+      <workItem from="1518865949785" duration="345000" />
+      <workItem from="1518866325425" duration="1432000" />
+      <workItem from="1525172399894" duration="2657000" />
+      <workItem from="1525175136679" duration="20000" />
+    </task>
+    <task id="LOCAL-00001" summary="Completed worksheet 05">
+      <created>1518866813431</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1518866813431</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="FunctionsTest - 2018.05.01 at 12h 01m 48s.xml">
+      <configuration name="FunctionsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FunctionsTest - 2018.05.01 at 12h 03m 06s.xml">
+      <configuration name="FunctionsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FunctionsTest - 2018.05.01 at 12h 16m 03s.xml">
+      <configuration name="FunctionsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FunctionsTest - 2018.05.01 at 12h 18m 09s.xml">
+      <configuration name="FunctionsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FunctionsTest - 2018.05.01 at 12h 18m 56s.xml">
+      <configuration name="FunctionsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FunctionsTest - 2018.05.01 at 12h 24m 24s.xml">
+      <configuration name="FunctionsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FunctionsTest - 2018.05.01 at 12h 25m 23s.xml">
+      <configuration name="FunctionsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FunctionsTest - 2018.05.01 at 12h 25m 51s.xml">
+      <configuration name="FunctionsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FunctionsTest - 2018.05.01 at 12h 29m 41s.xml">
+      <configuration name="FunctionsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FunctionsTest - 2018.05.01 at 12h 30m 13s.xml">
+      <configuration name="FunctionsTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4474000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="53" y="96" width="2503" height="1335" extended-state="0" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32921812" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2600823" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26168224" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32921812" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Completed worksheet 05" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed worksheet 05" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Functions.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3799">
+          <caret line="131" column="47" lean-forward="true" selection-start-line="131" selection-start-column="47" selection-end-line="131" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/FunctionsTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3103">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+          <folding>
+            <element signature="e#0#94#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/five/FunctionsKt.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/test/five/FunctionsTest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Functions.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6699">
+          <caret line="231" column="1" selection-start-line="231" selection-start-column="1" selection-end-line="231" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/FunctionsTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3857">
+          <caret line="136" selection-start-line="136" selection-end-line="136" />
+          <folding>
+            <element signature="e#0#94#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/five/FunctionsKt.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/test/five/FunctionsTest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/FunctionsTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#94#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/five/FunctionsKt.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/test/five/FunctionsTest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/FunctionsTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3103">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+          <folding>
+            <element signature="e#0#94#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Functions.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="131" column="47" selection-start-line="131" selection-start-column="47" selection-end-line="131" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.12.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>five</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>KotlinJavaRuntime</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <last-edited>Eclipse View</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

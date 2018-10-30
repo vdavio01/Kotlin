@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2f4f163-e775-4907-bac0-f4a62a0ca2f6" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise-three/test/ClassDestroyer.kt" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../../courseworks/coursework-one-kotlin/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../courseworks/coursework-one-kotlin/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../../courseworks/coursework-one-kotlin/src/sml/instructions/InstructionFactory.kt" afterPath="$PROJECT_DIR$/../../courseworks/coursework-one-kotlin/src/sml/instructions/InstructionFactory.kt" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/exercise-one/src/Reflect.kt" afterPath="$PROJECT_DIR$/exercise-one/src/Reflect.kt" />
-      <change beforePath="$PROJECT_DIR$/exercise-three/exercise-three.iml" afterPath="$PROJECT_DIR$/exercise-three/exercise-three.iml" />
-      <change beforePath="$PROJECT_DIR$/exercise-three/src/Reflect.kt" afterPath="$PROJECT_DIR$/exercise-three/src/Reflect.kt" />
-      <change beforePath="$PROJECT_DIR$/exercise-two/src/Reflect.kt" afterPath="$PROJECT_DIR$/exercise-two/src/Reflect.kt" />
+      <change beforePath="$PROJECT_DIR$/exercise-four/src/Reflect.kt" afterPath="$PROJECT_DIR$/exercise-four/src/Reflect.kt" />
       <change beforePath="$PROJECT_DIR$/out/production/exercise-one/ReflectKt.class" afterPath="$PROJECT_DIR$/out/production/exercise-one/ReflectKt.class" />
       <change beforePath="$PROJECT_DIR$/out/production/exercise-two/ReflectKt.class" afterPath="$PROJECT_DIR$/out/production/exercise-two/ReflectKt.class" />
     </list>
@@ -21,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Reflect.kt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Reflect.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/exercise-one/src/Reflect.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="290">
+              <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -55,7 +54,7 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1031">
+              <first_editor relative-caret-position="1363">
                 <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
                 <folding />
               </first_editor>
@@ -64,11 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClassDestroyer.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ClassDestroyer.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exercise-three/test/ClassDestroyer.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1658">
-              <caret line="81" column="24" lean-forward="false" selection-start-line="81" selection-start-column="24" selection-end-line="81" selection-end-column="24" />
+            <state relative-caret-position="2146">
+              <caret line="81" column="5" lean-forward="false" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
               <folding>
                 <element signature="e#0#223#0" expanded="true" />
               </folding>
@@ -89,8 +88,8 @@
       <file leaf-file-name="Reflect.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exercise-two/src/Reflect.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="551">
+              <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -100,7 +99,7 @@
         <entry file="file://$PROJECT_DIR$/exercise-three/src/Reflect.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="232">
-              <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+              <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -119,9 +118,11 @@
       <file leaf-file-name="Reflect.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exercise-four/src/Reflect.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="1305">
+              <caret line="48" column="82" lean-forward="false" selection-start-line="48" selection-start-column="82" selection-end-line="48" selection-end-column="82" />
+              <folding>
+                <element signature="e#0#156#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -150,10 +151,11 @@
         <option value="$PROJECT_DIR$/exercise-one/src/Reflection.java" />
         <option value="$PROJECT_DIR$/exercise-one/src/Reflection.kt" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/exercise-two/src/Reflect.kt" />
-        <option value="$PROJECT_DIR$/exercise-one/src/Reflect.kt" />
-        <option value="$PROJECT_DIR$/exercise-three/test/ClassDestroyer.kt" />
         <option value="$PROJECT_DIR$/exercise-three/src/Reflect.kt" />
+        <option value="$PROJECT_DIR$/exercise-four/src/Reflect.kt" />
+        <option value="$PROJECT_DIR$/exercise-two/src/Reflect.kt" />
+        <option value="$PROJECT_DIR$/exercise-three/test/ClassDestroyer.kt" />
+        <option value="$PROJECT_DIR$/exercise-one/src/Reflect.kt" />
       </list>
     </option>
   </component>
@@ -164,9 +166,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="220" />
     <option name="y" value="23" />
-    <option name="width" value="2168" />
+    <option name="width" value="2560" />
     <option name="height" value="1417" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -185,13 +186,26 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="two" type="b2602c69:ProjectViewProjectNode" />
               <item name="two" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="two" type="b2602c69:ProjectViewProjectNode" />
+              <item name="two" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise-four" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="two" type="b2602c69:ProjectViewProjectNode" />
+              <item name="two" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise-four" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="two" type="b2602c69:ProjectViewProjectNode" />
@@ -237,8 +251,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -266,7 +278,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ClassDestroyer.zeroArgumentConstructorRequired">
+  <component name="RunManager" selected="Kotlin.ReflectKt">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -287,26 +299,6 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="ClassDestroyer.exceptionsAreNotAllowed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="exercise-three" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ClassDestroyer" />
-      <option name="METHOD_NAME" value="exceptionsAreNotAllowed" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
     <configuration name="ClassDestroyer.functionsThatReturnIntAreNotAllowed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="exercise-three" />
@@ -315,26 +307,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ClassDestroyer" />
       <option name="METHOD_NAME" value="functionsThatReturnIntAreNotAllowed" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="ClassDestroyer.mutableListsAreNotAllowed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="exercise-three" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ClassDestroyer" />
-      <option name="METHOD_NAME" value="mutableListsAreNotAllowed" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -387,7 +359,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="ReflectKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="ReflectKt (1)" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -396,7 +368,31 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="ReflectKt" />
       <option name="WORKING_DIRECTORY" />
-      <module name="exercise-three" />
+      <module name="exercise-four" />
+      <envs />
+    </configuration>
+    <configuration name="ReflectKt (2)" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ReflectKt" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="exercise-two" />
+      <envs />
+    </configuration>
+    <configuration name="ReflectKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="String" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ReflectKt" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <module name="exercise-one" />
       <envs />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -440,19 +436,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.ClassDestroyer.mutableListsAreNotAllowed" />
-      <item index="1" class="java.lang.String" itemvalue="Kotlin.ReflectKt" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ClassDestroyer.exceptionsAreNotAllowed" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ClassDestroyer.functionsThatReturnIntAreNotAllowed" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ClassDestroyer.zeroArgumentConstructorRequired" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ClassDestroyer.functionsThatReturnIntAreNotAllowed" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ClassDestroyer.zeroArgumentConstructorRequired" />
+      <item index="2" class="java.lang.String" itemvalue="Kotlin.ReflectKt (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Kotlin.ReflectKt (2)" />
+      <item index="4" class="java.lang.String" itemvalue="Kotlin.ReflectKt" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ClassDestroyer.zeroArgumentConstructorRequired" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ClassDestroyer.functionsThatReturnIntAreNotAllowed" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ClassDestroyer.exceptionsAreNotAllowed" />
-        <item index="3" class="java.lang.String" itemvalue="Kotlin.ReflectKt" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ClassDestroyer.mutableListsAreNotAllowed" />
+        <item index="0" class="java.lang.String" itemvalue="Kotlin.ReflectKt" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ClassDestroyer.zeroArgumentConstructorRequired" />
+        <item index="2" class="java.lang.String" itemvalue="Kotlin.ReflectKt (2)" />
+        <item index="3" class="java.lang.String" itemvalue="Kotlin.ReflectKt (1)" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ClassDestroyer.functionsThatReturnIntAreNotAllowed" />
       </list>
     </recent_temporary>
   </component>
@@ -483,7 +479,9 @@
       <workItem from="1517044449391" duration="23324000" />
       <workItem from="1517081087144" duration="118000" />
       <workItem from="1517132774461" duration="10859000" />
-      <workItem from="1517224060608" duration="2839000" />
+      <workItem from="1517224060608" duration="8746000" />
+      <workItem from="1517319043474" duration="555000" />
+      <workItem from="1519070774075" duration="392000" />
     </task>
     <task id="LOCAL-00001" summary="testing github">
       <created>1516973427065</created>
@@ -513,13 +511,17 @@
       <option name="project" value="LOCAL" />
       <updated>1517067462106</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Completed Ex03">
+      <created>1517227317360</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1517227317360</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ClassDestroyer_functionsThatReturnIntAreNotAllowed - 2018.01.29 at 11h 50m 00s.xml">
-      <configuration name="ClassDestroyer.functionsThatReturnIntAreNotAllowed" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ClassDestroyer_functionsThatReturnIntAreNotAllowed - 2018.01.29 at 11h 50m 15s.xml">
       <configuration name="ClassDestroyer.functionsThatReturnIntAreNotAllowed" configurationId="JUnit" />
     </history-entry>
@@ -547,28 +549,31 @@
     <history-entry file="ClassDestroyer_zeroArgumentConstructorRequired - 2018.01.29 at 11h 57m 54s.xml">
       <configuration name="ClassDestroyer.zeroArgumentConstructorRequired" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ClassDestroyer_zeroArgumentConstructorRequired - 2018.01.30 at 13h 36m 19s.xml">
+      <configuration name="ClassDestroyer.zeroArgumentConstructorRequired" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72496000" />
+    <option name="totallyTimeSpent" value="79350000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="220" y="23" width="2168" height="1417" extended-state="0" />
+    <frame x="0" y="23" width="2560" height="1417" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948422" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34719014" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3462069" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11618062" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21882446" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -580,6 +585,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827586" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -597,7 +603,8 @@
     <MESSAGE value="testing github" />
     <MESSAGE value="Completed Ex01" />
     <MESSAGE value="Completed Ex02" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Ex02" />
+    <MESSAGE value="Completed Ex03" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Ex03" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -632,7 +639,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#156#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -710,7 +719,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#156#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -771,7 +782,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#156#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -803,7 +816,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#156#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -843,7 +858,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#156#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -878,7 +895,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#156#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -902,7 +921,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#156#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -932,22 +953,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/exercise-one/src/Reflection.kt" />
     <entry file="file://$PROJECT_DIR$/exercise-one/src/Reflection.java" />
-    <entry file="file://$PROJECT_DIR$/exercise-four/src/Reflect.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/worksheet-two.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/exercise-one/exercise-one.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -972,26 +977,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercise-one/src/Reflect.kt">
+    <entry file="file://$PROJECT_DIR$/worksheet-two.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercise-two/src/Reflect.kt">
+    <entry file="file://$PROJECT_DIR$/exercise-four/src/Reflect.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="1305">
+          <caret line="48" column="82" lean-forward="false" selection-start-line="48" selection-start-column="82" selection-end-line="48" selection-end-column="82" />
+          <folding>
+            <element signature="e#0#156#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1031">
+          <first_editor relative-caret-position="1363">
             <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
             <folding />
           </first_editor>
@@ -999,21 +1006,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/exercise-two/src/Reflect.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/exercise-three/src/Reflect.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
-          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exercise-three/test/ClassDestroyer.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1658">
-          <caret line="81" column="24" lean-forward="false" selection-start-line="81" selection-start-column="24" selection-end-line="81" selection-end-column="24" />
+        <state relative-caret-position="2146">
+          <caret line="81" column="5" lean-forward="false" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
           <folding>
             <element signature="e#0#223#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise-one/src/Reflect.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
