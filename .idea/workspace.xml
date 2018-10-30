@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1e1b235-6903-49f9-8180-1775b7b0416e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/worksheets/five/out/production/five/FunctionsKt$filter$valueToCheck$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/worksheets/five/out/production/five/FunctionsKt$flatMap$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/worksheets/five/out/production/five/FunctionsKt$flatten$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/worksheets/five/out/production/five/FunctionsKt$map$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/worksheets/five/out/production/five/FunctionsKt$reverse$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/worksheets/two/exercise-two/src/Reflect2.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/SDP-2018.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SDP-2018.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worksheets/three/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/worksheets/three/src/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worksheets/two/exercise-four/src/Reflect.kt" beforeDir="false" afterPath="$PROJECT_DIR$/worksheets/two/exercise-four/src/ReflectionProgram.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worksheets/two/exercise-one/src/Reflect.kt" beforeDir="false" afterPath="$PROJECT_DIR$/worksheets/two/exercise-one/src/Reflect.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worksheets/two/exercise-two/src/Reflect.kt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,11 +13,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="AccumulateTest.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/worksheets/one/exercise-one/test/AccumulateTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
+            <state relative-caret-position="90">
               <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
               <folding>
                 <element signature="e#0#77#0" expanded="true" />
@@ -39,7 +29,7 @@
       <file leaf-file-name="Reflect.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/worksheets/two/exercise-one/src/Reflect.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
+            <state relative-caret-position="570">
               <caret line="38" selection-start-line="38" selection-end-line="38" />
             </state>
           </provider>
@@ -88,7 +78,7 @@
       <file leaf-file-name="ReflectionProgram.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/worksheets/two/exercise-four/src/ReflectionProgram.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
+            <state relative-caret-position="795">
               <caret line="56" selection-start-line="56" selection-end-line="56" />
               <folding>
                 <element signature="e#0#156#0" expanded="true" />
@@ -263,112 +253,38 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="SDP-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SDP-2018" type="462c0819:PsiDirectoryNode" />
+              <item name="Kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kotlin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SDP-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SDP-2018" type="462c0819:PsiDirectoryNode" />
+              <item name="Kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kotlin" type="462c0819:PsiDirectoryNode" />
               <item name="worksheets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SDP-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SDP-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="worksheets" type="462c0819:PsiDirectoryNode" />
-              <item name="three" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SDP-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SDP-2018" type="462c0819:PsiDirectoryNode" />
+              <item name="Kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kotlin" type="462c0819:PsiDirectoryNode" />
               <item name="worksheets" type="462c0819:PsiDirectoryNode" />
               <item name="three" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SDP-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SDP-2018" type="462c0819:PsiDirectoryNode" />
+              <item name="Kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kotlin" type="462c0819:PsiDirectoryNode" />
               <item name="worksheets" type="462c0819:PsiDirectoryNode" />
-              <item name="two" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SDP-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SDP-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="worksheets" type="462c0819:PsiDirectoryNode" />
-              <item name="two" type="462c0819:PsiDirectoryNode" />
-              <item name="exercise-four" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SDP-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SDP-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="worksheets" type="462c0819:PsiDirectoryNode" />
-              <item name="two" type="462c0819:PsiDirectoryNode" />
-              <item name="exercise-four" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SDP-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SDP-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="worksheets" type="462c0819:PsiDirectoryNode" />
-              <item name="two" type="462c0819:PsiDirectoryNode" />
-              <item name="exercise-one" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SDP-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SDP-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="worksheets" type="462c0819:PsiDirectoryNode" />
-              <item name="two" type="462c0819:PsiDirectoryNode" />
-              <item name="exercise-one" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SDP-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SDP-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="worksheets" type="462c0819:PsiDirectoryNode" />
-              <item name="two" type="462c0819:PsiDirectoryNode" />
-              <item name="exercise-three" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SDP-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SDP-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="worksheets" type="462c0819:PsiDirectoryNode" />
-              <item name="two" type="462c0819:PsiDirectoryNode" />
-              <item name="exercise-three" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SDP-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SDP-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="worksheets" type="462c0819:PsiDirectoryNode" />
-              <item name="two" type="462c0819:PsiDirectoryNode" />
-              <item name="exercise-three" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SDP-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SDP-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="worksheets" type="462c0819:PsiDirectoryNode" />
-              <item name="two" type="462c0819:PsiDirectoryNode" />
-              <item name="exercise-two" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SDP-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SDP-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="worksheets" type="462c0819:PsiDirectoryNode" />
-              <item name="two" type="462c0819:PsiDirectoryNode" />
-              <item name="exercise-two" type="462c0819:PsiDirectoryNode" />
+              <item name="three" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -376,7 +292,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -506,10 +422,10 @@
       <listeners />
     </configuration>
     <list>
+      <item itemvalue="Kotlin.ReflectionProgramKt" />
       <item itemvalue="JUnit.AccumulateTest" />
       <item itemvalue="Kotlin.ReflectKt" />
       <item itemvalue="Kotlin.SensorSystem" />
-      <item itemvalue="Kotlin.Reflect2Kt" />
       <item itemvalue="Kotlin.Reflect4Kt" />
     </list>
     <recent_temporary>
@@ -518,7 +434,6 @@
         <item itemvalue="Kotlin.ReflectKt" />
         <item itemvalue="Kotlin.ReflectionProgramKt" />
         <item itemvalue="Kotlin.Reflect4Kt" />
-        <item itemvalue="Kotlin.Reflect2Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -546,6 +461,7 @@
       <workItem from="1516799865870" duration="12000" />
       <workItem from="1518864005124" duration="9000" />
       <workItem from="1540904084776" duration="2605000" />
+      <workItem from="1540907398866" duration="103000" />
     </task>
     <task id="LOCAL-00001" summary="Removing redundant files">
       <created>1540904260253</created>
@@ -563,24 +479,22 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2638000" />
+    <option name="totallyTimeSpent" value="2741000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.32876712" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
+      <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -590,15 +504,16 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32876712" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -617,6 +532,75 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/worksheets/one/exercise-one/test/AccumulateTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worksheets/two/exercise-one/src/Reflect.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worksheets/two/exercise-two/src/Reflect2.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worksheets/three/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worksheets/three/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worksheets/two/exercise-four/src/ReflectionProgram.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="e#0#156#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worksheets/two/exercise-three/src/Reflect.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worksheets/two/exercise-three/test/ClassDestroyer.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worksheets/three/src/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#145#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/courseworks/coursework-one-kotlin/src/sml/Registers.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -650,7 +634,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/worksheets/one/exercise-one/test/AccumulateTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state relative-caret-position="90">
           <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
           <folding>
             <element signature="e#0#77#0" expanded="true" />
@@ -673,13 +657,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/worksheets/two/exercise-two/src/reflect.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-768">
-          <caret selection-end-line="78" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/worksheets/two/exercise-two/src/reflect.kt" />
     <entry file="file://$PROJECT_DIR$/worksheets/two/exercise-three/src/Reflect.kt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -697,19 +675,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/worksheets/two/exercise-four/src/Reflect4.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#156#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/worksheets/two/exercise-four/src/Reflect4.kt" />
     <entry file="file://$PROJECT_DIR$/worksheets/two/exercise-four/src/ReflectionProgram.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
+        <state relative-caret-position="795">
           <caret line="56" selection-start-line="56" selection-end-line="56" />
           <folding>
             <element signature="e#0#156#0" expanded="true" />
@@ -719,7 +688,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/worksheets/two/exercise-one/src/Reflect.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
+        <state relative-caret-position="570">
           <caret line="38" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
@@ -834,7 +803,7 @@
       </state>
       <state key="ScopeChooserConfigurable.UI">
         <settings>
-          <last-edited>Eclipse View</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
