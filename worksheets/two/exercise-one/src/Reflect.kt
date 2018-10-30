@@ -2,10 +2,8 @@ import java.lang.reflect.Modifier
 
 
 fun main(args: Array<String>) {
-    if (args.size != 1) {
-        println("Requires a class name as argument to program")
-        System.exit(-1)
-    }
+
+    print("Please insert class name: ")
 
     val className = readLine()
     val myClass =  Class.forName(className)
@@ -38,8 +36,6 @@ fun main(args: Array<String>) {
 }
 
 class Person(var age: String, val firstName: String, val secondName: String) {
-
-
 
     fun gettingOlder(){
         age+=1

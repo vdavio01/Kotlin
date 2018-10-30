@@ -5,15 +5,15 @@ import java.util.*
 object SensorSystem {
     
     private val ROOT = System.getProperty("user.dir")
+
     private val beanFactory: BeanFactory
     @Throws(Exception::class)
-    get() = ClassPathXmlApplicationContext("file:$ROOT/beans.xml")
+    get() = ClassPathXmlApplicationContext("file:$ROOT/worksheets/three/beans.xml")
 
 
     @Throws(Exception::class)
     @JvmStatic
     fun main(args: Array<String>) {
-
         val factory = beanFactory
         val controlUnit = factory.getBean("controlUnit") as ControlUnit
         val securityControlUnit = beanFactory.getBean("securityControlUnit") as SecurityControlUnit

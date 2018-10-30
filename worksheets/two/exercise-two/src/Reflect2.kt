@@ -20,8 +20,8 @@ class ReflectionProgram(className: String, argsList :List<String>) {
     init{
         val constructorList =
 
-                // "call the appropriate constructors that take a string as their only argument."
-                // Create a map with the constructors and the Class of the required arguments for each one of them
+        // "call the appropriate constructors that take a string as their only argument."
+        // Create a map with the constructors and the Class of the required arguments for each one of them
                 Class.forName(className).constructors
                         .filter { it.parameters.size == 1 }
                         .map { it to it.parameterTypes }.toMap()
@@ -30,15 +30,15 @@ class ReflectionProgram(className: String, argsList :List<String>) {
             0 -> showErrorMessage()
             else -> {
                 val desiredConstructors =
-                        // remove the redundant constructors
-                        //.all or .any will also work since the constructor has only 1 argument
+                // remove the redundant constructors
+                //.all or .any will also work since the constructor has only 1 argument
                         constructorList.toMutableCopy()
                                 .filter { it.value[0] == String :: class.java }
 
                 argsList.forEach { arg ->
                     //Create and Display an object for each argument inside our list
                     desiredConstructors.forEach {
-                        printOutObject(it.key.newInstance(arg) as Person)
+                        printOutObject(it.key.newInstance(arg) as Persons)
                     }
                 }
 
@@ -47,7 +47,7 @@ class ReflectionProgram(className: String, argsList :List<String>) {
 
     }
 
-    private fun printOutObject(obj: Person) {
+    private fun printOutObject(obj: Persons) {
         println(obj.firstName)
     }
 
@@ -64,7 +64,7 @@ class ReflectionProgram(className: String, argsList :List<String>) {
 
 
 
-class Person(val firstName: String, val secondName: String, val age: Int) {
+class Persons(val firstName: String, val secondName: String, val age: Int) {
 
     constructor(firstName: String, secondName: String): this(firstName, "N/A", 20)
 

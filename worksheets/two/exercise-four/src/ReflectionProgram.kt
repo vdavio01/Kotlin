@@ -5,7 +5,7 @@ import kotlin.reflect.full.declaredMemberProperties
 
 class Me {
     private var myAge = 32
-     private var myFirstName = "Vasileios"
+    private var myFirstName = "Vasileios"
     private var mySurname = "Davios"
 
 
@@ -23,14 +23,14 @@ class Me {
 
 fun main(args: Array<String>) {
 
-    reflectionProgram(Me :: class).showAll()
-
+    val rfp = ReflectionProgram1(Me :: class)
+    rfp.showAll()
 }
 
 
-class reflectionProgram(myClass: KClass<*>) {
+class ReflectionProgram1(myClass: KClass<*>) {
 
-    val jClass = Class.forName("Me")
+  val jClass = Class.forName("Me")
 
     fun setUp() {
         val myobj = Me()
@@ -41,16 +41,20 @@ class reflectionProgram(myClass: KClass<*>) {
 
         println(actualValue)
     }
-     val kClass = myClass
+
+
+    val kClass = myClass
 
     fun showAll(){
-         val smt = kClass.createInstance()
+
+        println(kClass)
+        val smt = kClass.createInstance()
         val myProperties = kClass.declaredMemberProperties
         myProperties.forEach { it.apply { it.visibility.apply { KVisibility.PUBLIC } } }
 
         myProperties.forEach { println(it.visibility) }
-        //kClass.declaredMemberProperties.forEach { println("${it.name} is a ${it.returnType} and has value : ${(kClass.createInstance()) }") }
-        //jClass.declaredFields.forEach { println(it.name + it.get()) }
+        kClass.declaredMemberProperties.forEach { println("${it.name} is a ${it.returnType} ") }
+
 
     }
 }
