@@ -25,24 +25,9 @@ fun <T> drop(l: List<T>, n: Int): List<T> {
 
 }
 
-fun <T> init(l: List<T>): List<T> {
-    return when (l.size) {
-
-        0 -> throw IllegalArgumentException("Empty List")
-        else -> {
-            //1st solution
-            l.dropLast(1)
-
-            //2nd (odd) solution
-            //l.reversed().drop(1).reversed()
-
-            //3rd (odd) solution using drop(l: List<T>, n: Int)
-            //drop(l.reversed(),1).reversed()
-
-            //4th (odd) solution using tail(l:List<T>)
-            //tail(l.reversed()).reversed()
-        }
-    }
+fun <T> init(l: List<T>): List<T> = when (l) {
+    emptyList<T>() -> throw IllegalArgumentException()
+    else -> if (l.size == 1) emptyList() else listOf(head(l)) + init(tail(l))
 }
 
 fun <T> foldLeft(l: List<T>, initial : T, f: (T, T) -> T): T {
