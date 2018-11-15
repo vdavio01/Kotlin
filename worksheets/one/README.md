@@ -1,6 +1,5 @@
 # Worksheet One - The Basics
 
-Some *simple* questions just to get you used to using Kotlin and the development environment.
 
 1. Implement the `accumulate` operation, which, given a collection and an
 operation to perform on each element of the collection, returns a new
