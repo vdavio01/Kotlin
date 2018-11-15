@@ -178,21 +178,6 @@ fun isPalindrome(s: String): Boolean  {
     return newS == newS.reversed()
 }
 
-/**
- * You don't have to complete this one as we've removed it from the list
- * of required functions.
- *
- * Sum the characters (as integers) provided as arguments to this method.
- *
- * Your implementation must conform to the following rules:
- *
- * - You must use a for loop
- * - You may use any mutable (var) variables.
- *
- * @param cc 0 or more characters
- * @return the sum of the ASCII integers corresponding with the character.
- */
-//fun sumChars(cc: Char*): Int =
 
 /**
  * Counts the number of space delimited words in the provided array of strings.
