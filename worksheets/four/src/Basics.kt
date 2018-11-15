@@ -157,7 +157,7 @@ fun splitInHalf(s: String): Pair<String, String> {
  *
  * Your implementation must conform to the following rules:
  *
- * - You must use a for comprehension.
+ * 
  * - You may not use any other loops.
  * - You may not use any mutable (var) variables.
  *
