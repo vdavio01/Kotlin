@@ -9,3 +9,6 @@ Examines the five principles embodied by S.O.L.I.D. and dependency injection via
 
 # Worksheet Four
 Basic functions
+
+# Worksheet Five
+Basic List functions and high order functions
