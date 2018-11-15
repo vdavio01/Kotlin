@@ -8,4 +8,4 @@ Reflection
 Examines the five principles embodied by S.O.L.I.D. and dependency injection via an appropriate (extended) example.
 
 # Worksheet Four
-Basic Math functions
+Basic functions
