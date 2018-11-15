@@ -68,7 +68,11 @@ Linguistic patterns applicable to all words.
 
 Apart from statistical occurrences of characters and words, a number of rules can be found which is always(?) true for all words.
 
-Words must have at least one vowel. Words (even single letter ones), must have at least one vowel. Words consisting with consonants are not valid.
-Q must always be followed by u. Q is must not be found followed with anything other than u, unless it is the final character of the word.
-Words can not end with I, V or J. Words ending with either i, v or j are not valid.
+- Words must have at least one vowel. 
+- Words (even single letter ones), must have at least one vowel. 
+- Words consisting with consonants are not valid.
+- Q must always be followed by u. 
+- Q is must not be found followed with anything other than u, unless it is the final character of the word.
+- Words can not end with I, V or J. 
+- Words ending with either i, v or j are not valid.
 
