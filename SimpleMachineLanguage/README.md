@@ -1,6 +1,6 @@
 # Simple Machine Language (SML)
 
-You will write an interpreter for a simple machine language — SML. The general form of a machine language instruction is
+An interpreter for a simple machine language — SML. The general form of a machine language instruction is
 
 label instruction register-list where:
 
